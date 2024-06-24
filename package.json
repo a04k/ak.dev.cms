@@ -1,5 +1,5 @@
 {
-  "name": "ak-dev-strapi",
+  "name": "ak-dev-cms",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -10,26 +10,26 @@
     "strapi": "strapi",
     "deploy": "strapi deploy"
   },
+  "devDependencies": {},
   "dependencies": {
     "@strapi/plugin-cloud": "4.25.1",
     "@strapi/plugin-i18n": "4.25.1",
     "@strapi/plugin-users-permissions": "4.25.1",
     "@strapi/provider-upload-cloudinary": "^4.25.1",
     "@strapi/strapi": "4.25.1",
-    "pg": "^8.12.0",
+    "pg": "8.8.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "5.3.4",
     "styled-components": "5.3.3"
   },
   "author": {
-    "name": "Ahmed Khaled"
+    "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "94c58488-1e2c-43f1-87e7-14be57b6362b"
+    "uuid": "9c553190-e732-48b8-b87f-b292efb10a26"
   },
   "engines": {
-    "bun": ">=0.5.0",
     "node": ">=18.0.0 <=20.x.x",
     "npm": ">=6.0.0"
   },
