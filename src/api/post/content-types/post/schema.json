@@ -13,10 +13,12 @@
   "pluginOptions": {},
   "attributes": {
     "Title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "urlSlug": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Post": {
       "type": "blocks"
@@ -33,16 +35,23 @@
       ]
     },
     "Author": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "postDate": {
-      "type": "date"
+      "type": "date",
+      "unique": false,
+      "required": true
     },
     "categories": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::category.category",
       "inversedBy": "posts"
+    },
+    "Description": {
+      "type": "string",
+      "required": true
     }
   }
 }
